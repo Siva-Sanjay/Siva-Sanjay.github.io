@@ -1,10 +1,11 @@
 window.onload = function () {
+    console.log("Loading..");
     var ImageMap = function (map) {
             var n,
                 areas = map.getElementsByTagName('area'),
                 len = areas.length,
                 coords = [],
-                previousWidth = 1920;
+                previousWidth = 1224;
             for (n = 0; n < len; n++) {
                 coords[n] = areas[n].coords.split(',');
             }
@@ -23,6 +24,6 @@ window.onload = function () {
             };
             window.onresize = this.resize;
         },
-        imageMap = new ImageMap(document.getElementById('map_ID'));
+        imageMap = new ImageMap(document.getElementById('map'));
     imageMap.resize();
 }

@@ -11,6 +11,5 @@
     align-items: center;
 }
 .image {
-    width: 1224px;
-    height: 694px;
+    width: 100%;
 }
