@@ -1,4 +1,4 @@
-# IITTPEETT
+# IITTP EE
 IITTP Electrical Engineering Third Semester Timetable
 
 ## Contributors 
