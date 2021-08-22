@@ -12,4 +12,19 @@
 }
 .image {
     width: 100%;
+
+}
+
+.absolute {
+    position: absolute;
+    top: 694px;
+}
+
+
+.absolute span {
+    font-size: 3vw;
+}
+
+.absolute span:hover {
+    cursor: pointer;
 }

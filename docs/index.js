@@ -26,4 +26,34 @@ window.onload = function () {
         },
         imageMap = new ImageMap(document.getElementById('map'));
     imageMap.resize();
+
+    var SpanTop = function (span){
+        var  previousHeight = 694;
+        var x =  previousHeight / document.body.clientHeight;
+
+        this.resize = function (){
+            //console.log(x);
+            //var str = span.offsetTop;
+            var cheight = document.body.clientHeight;
+            //console.log(cheight);
+            var top = parseFloat(cheight);
+            top *=x;
+            //console.log(top);
+            span.style.top = `${top}px`;
+            //previousHeight = document.body.clientHeight;
+            return true;
+        };
+        window.onresize = this.resize
+    },
+    spanTop = new SpanTop(document.getElementById("pog"));
+    spanTop.resize();
+}
+
+
+
+
+function rr(){
+    console.log('RickRolledLMAO');
+    var song = new Audio('Images/song.mp3');
+    song.play();
 }
