@@ -28,7 +28,7 @@ window.onload = function () {
     imageMap.resize();
 
     var SpanTop = function (span){
-        var  previousHeight = 694;
+        var  previousHeight = 800;
         var x =  previousHeight / document.body.clientHeight;
 
         this.resize = function (){
