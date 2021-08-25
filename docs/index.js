@@ -2,6 +2,7 @@ window.onload = function () {
 
 
 
+
 var ImageMap = function (map) {
     //ImageMap
     var n,
@@ -12,10 +13,7 @@ var ImageMap = function (map) {
     for (n = 0; n < len; n++) {
       coords[n] = areas[n].coords.split(",");
     }
-
-    
-
-
+  
     this.resize = function () {
         //ImageMap
       var n,
@@ -49,7 +47,6 @@ span.addEventListener('click',()=>{
     rr(span);
 }
 );
-
 };
 
 
@@ -58,6 +55,10 @@ function rr(span) {
     console.log("RickRolledLMAO");
     var song = new Audio("Images/song.mp3");
     song.play();
+
     span.removeEventListener('click',null);
 }
   
+
+}
+
