@@ -1,5 +1,6 @@
 window.onload = function () {
   var ImageMap = function (map) {
+      console.log("Loading Resize...");
       //ImageMap
       var n,
         areas = map.getElementsByTagName("area"),
