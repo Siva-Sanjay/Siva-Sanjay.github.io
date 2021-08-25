@@ -17,7 +17,8 @@
 
 .absolute {
     position: absolute;
-    top: 694px;
+    /* top: 694px; */
+    top: 52vw;
 }
 
 
