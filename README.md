@@ -2,5 +2,5 @@
 IITTP Electrical Engineering Third Semester Timetable
 
 ## Contributors 
-* [Sanjay](https://github.com/Siva-Sanjay) - Creator (He had no github account untill 18.08.2021, really weird!!!)
-* [KingBenny101](https://github.com/benstindavis) - The guy who likes melons
+* [Sanjay](https://github.com/Siva-Sanjay) - Created the Time Table design and Image map in HTML
+* [KingBenny101](https://github.com/benstindavis) - Added the needed CSS and JS for a responsive site.
